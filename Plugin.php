@@ -17,7 +17,7 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'Hello Dolly',
-            'description' => 'Randomly show a lyric from Hello, Dolly in the upper right of your admin screen on every page.',
+            'description' => 'Randomly show a lyric from Hello, Dolly at the dashboard of your backend.',
             'author'      => 'Vojta Svoboda',
             'icon'        => 'icon-leaf'
         ];
