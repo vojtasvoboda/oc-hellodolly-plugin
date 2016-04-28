@@ -16,7 +16,7 @@ Just insert new song to `/library` directory and you can show it at your dashboa
 
 ## Todo
 
-[ ] Automatically load list of Interprets and Songs to each widget.
+- [ ] Automatically load list of Interprets and Songs to each widget.
 
 ## Contributing
 
