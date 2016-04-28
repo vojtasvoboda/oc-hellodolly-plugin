@@ -1,0 +1,10 @@
+<div class="report-widget">
+    <h3><?= e($this->property('title')) ?></h3>
+
+    <?php if ($error): ?>
+        <p class="flash-message static warning"><?= $error ?></p>
+    <?php else: ?>
+        <p style="font-size:120%;font-style:italic;color:#777;"><?= $lyrics ?></p>
+    <?php endif ?>
+
+</div>
