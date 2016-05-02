@@ -1,0 +1,18 @@
+{
+  "name": "vojtasvoboda/oc-hellodolly-plugin",
+  "keywords": ["october", "plugin", "hello", "dolly", "louis", "armstrong"],
+  "description": "Randomly show a lyric from Hello, Dolly at the dashboard.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vojta Svoboda",
+      "email": "vojtasvoboda.cz@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "twig/extensions": "^1.3",
+    "symfony/translation": "^3.0"
+  },
+  "minimum-stability": "dev"
+}
