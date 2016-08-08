@@ -1,6 +1,9 @@
 {
   "name": "vojtasvoboda/oc-hellodolly-plugin",
   "type": "october-plugin",
+  "extra": {
+    "installer-name": "hellodolly"
+  },
   "keywords": ["october", "plugin", "hello", "dolly", "louis", "armstrong"],
   "description": "Randomly show a lyric from Hello, Dolly at the dashboard.",
   "license": "MIT",
