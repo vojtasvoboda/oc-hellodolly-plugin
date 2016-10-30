@@ -29,5 +29,5 @@
       "composer dumpautoload",
       "phpunit"
     ]
-  },
+  }
 }
