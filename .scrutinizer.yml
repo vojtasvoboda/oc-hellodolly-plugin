@@ -14,7 +14,7 @@ build:
     tests:
         override:
             -
-                command: 'phpunit plugins/vojtasvoboda/hellodolly/tests --coverage-clover=coverage'
+                command: 'phpunit --coverage-clover=coverage'
                 coverage:
                     file: 'coverage'
                     format: 'php-clover'
