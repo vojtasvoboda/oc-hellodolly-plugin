@@ -5,9 +5,9 @@ build:
             - git clone https://github.com/octobercms/october.git .
             - composer install --no-interaction --prefer-source
             - mkdir -p ./plugins/vojtasvoboda/hellodolly
-            - cd plugins/vojtasvoboda/hellodolly
-            - git clone https://github.com/vojtasvoboda/oc-hellodolly-plugin.git .
+            - cd plugins/vojtasvoboda/hellodolly && git clone https://github.com/vojtasvoboda/oc-hellodolly-plugin.git .
             - composer install
+
     tests:
         override:
             -
