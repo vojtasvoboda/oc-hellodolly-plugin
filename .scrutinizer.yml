@@ -16,5 +16,5 @@ build:
             -
                 command: 'phpunit --coverage-clover=coverage'
                 coverage:
-                    file: 'coverage'
+                    file: './plugins/vojtasvoboda/hellodolly/coverage'
                     format: 'php-clover'
